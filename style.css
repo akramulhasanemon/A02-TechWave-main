@@ -1,0 +1,167 @@
+ *{
+    margin: 0;
+    padding: 0;
+max-width:100%;
+ 
+ }
+
+/* navbar section */
+.navbar{
+
+background-color: #1A0B2E;
+height: 70px;
+
+
+
+
+}
+
+.navbar,nav{
+ display: flex;
+margin: 0 auto;
+padding-top: 5px;
+
+
+
+ /* margin: 0 auto; */
+
+}
+nav{
+
+  width:71%;
+    justify-content: space-between;
+
+}
+
+.tech{
+/* margin-left: 200px;
+margin-right: 314px;
+padding-top:30px;
+padding-bottom: 30px; */
+}
+.tech h2 {
+    font-size: 2rem;
+}
+nav ul li {
+list-style:none;
+
+}
+nav ul{
+/* padding-right: 314px;   */
+}
+
+ ul li a{
+text-decoration: none;
+
+
+}
+nav ,ul ,li, a{
+gap: 20px;
+color: #FFFFFF;
+margin-top: 7px;
+}
+nav ul{
+display: flex;
+
+}
+ nav.Subscribe ,button{
+  background:  var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
+
+/* background-color: rgba(251, 9, 180, 1); */
+color: #FFFFFF;
+font-size: 1rem;
+width: 135px;
+height: 44px;
+border-radius: 17px;
+cursor: pointer;
+
+
+
+} 
+/* background */
+.backgrounds{
+   background:url("assets/hero-circle.png"),url("assets/hero-bg.png");
+ height:700px; 
+
+
+background-position: center 25%;
+
+
+    background-repeat: no-repeat, no-repeat;
+
+
+
+}
+.images ,img{
+padding-left: 315px;
+padding-top:  85px;
+
+}
+.new{
+margin-top: -220px;
+margin-left: 780px;
+   background-color: #00FF88;
+   font-size: 18px;
+   width: 50px;
+
+   border-radius: 9px;
+   text-align: center;
+}
+.TechWave{
+text-align: center;
+margin-top: 350px;
+} 
+.tech-btn{
+  margin-top: 20px;
+  display: flex; 
+  justify-content: center;
+  gap: 10px;
+
+}
+.Tech-content h1{
+  color:#FFFFFF;
+  font-size: 60px;
+  margin-bottom: 5px;
+}
+.Tech-content p{
+  color:#FFFFFF;
+  font-size: 16px;
+}
+.tech-btn .Subscribe{
+  color: #00FF88;
+  
+}
+/* about-section */
+.about-section{
+  background-color:#1A0B2E ;
+}
+.container{
+  padding-top: 160px;
+   text-align: center;
+padding-bottom: 60px;
+}
+.about-containar{
+  display: flex;
+  justify-content: center;
+}
+.about h1{
+  color: #FFFFFF;
+  font-size: 48px;
+  margin-bottom: 5px;
+}
+.about p{
+  color: #FFFFFF;
+  font-size: 16px;
+  margin-bottom:160px ;
+}
+.about-containar{
+  gap: 80px;
+
+}
+.about-containar .box h1{
+  color: #00FF88;
+  font-size: 48px;
+}
+.about-containar .box p{
+  color: #FFFFFF;
+}
