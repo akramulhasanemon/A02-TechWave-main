@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techwave Bento Grid</title>
+    <link rel="stylesheet" href="grid.css">
+</head>
+<body>
+
+    <section class="container">
+        <h1 class="main-title">Why Choose Techwave</h1>
+        
+        <div class="bento-grid">
+            <div class="card premium-audio">
+                <div class="icon">🎧</div>
+                <h2>Premium Audio Quality</h2>
+                <p>Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
+            </div>
+
+            <div class="card card-wide mobile-friendly">
+                <div class="icon">📱</div>
+                <div class="content">
+                    <h2>Mobile Friendly</h2>
+                    <p>Listen on the go with seamless mobile experience and offline downloads.</p>
+                </div>
+            </div>
+
+            <div class="card card-wide global-community">
+                <div class="icon">🌍</div>
+                <div class="content">
+                    <h2>Global Community</h2>
+                    <p>Connect with tech enthusiasts from over 120 countries worldwide.</p>
+                </div>
+            </div>
+
+            <div class="card exclusive-interviews">
+                <div class="icon">⚡</div>
+                <h2>Exclusive Interviews</h2>
+                <p>Get unprecedented access to industry titans, startup founders, and tech visionaries. Our host secures exclusive conversations you won't find anywhere else, diving deep into their journeys, failures, and success strategies.</p>
+            </div>
+
+            <div class="card rich-resources">
+                <div class="icon">📖</div>
+                <h2>Rich Resources</h2>
+                <p>Access show notes, transcripts, and additional learning materials for every episode.</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

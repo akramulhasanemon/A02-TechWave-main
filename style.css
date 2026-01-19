@@ -165,3 +165,102 @@ padding-bottom: 60px;
 .about-containar .box p{
   color: #FFFFFF;
 }
+
+   /* <!-- choose tech --> */
+   .ccontainer{
+    background-color:#230E3D ;
+padding-bottom: 50px;
+
+
+   }
+ .Tech-content ,.h{
+    padding-top: 50px;
+    color:#FFFFFF;
+    font-size: 48px;
+  
+
+    text-align: center;
+    margin-bottom: 10px;
+   }
+   .bentro-grid{
+ 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+  
+
+    grid-template-areas:
+    "tall wide1 wide1"
+    "tall wide2 wide2"
+    "bottomL bottomL bottomR"
+    ;
+   }
+.Premium-audio{grid-area:tall;}
+.mobaile{grid-area: wide1;}
+.global{grid-area: wide2;}
+.exclusive{grid-area: bottomL;}
+.rich{grid-area:bottomR;}
+
+.card-wide{
+   display: flex;
+  align-items: center; 
+  height:225px ;
+  width: 790px;
+ padding-left:-2000px;
+ 
+}
+.card-audio{
+ 
+
+  width: 280px;
+  height: 420px;
+  
+  
+}
+.card{
+ 
+  /* margin: 0 auto; */
+margin: 0 auto;
+background-color: #1a0b3b;
+border-radius: 10px;
+margin-bottom: 10px;
+
+
+}
+.card h2{
+color:#FFFFFF;
+font-size: 24px;
+margin-bottom: 10px;
+}
+.card p{
+  color: #FFFFFF;
+  font-size: 16px;
+
+}
+/* host */
+.host{
+display: flex;
+justify-content: center;
+}
+.banner-section{
+background-color: #1A0B2E;
+}
+/* .image-content , img{
+margin-left: -150px;
+} */
+.img-icon img{
+
+ margin-left: -300px;
+ margin-top:-200px ;
+
+
+}
+.footer{
+     background:url("assets/hero-bg.png");
+ height:500px; 
+
+
+    background-repeat: no-repeat;
+   background-size: cover;
+
+}

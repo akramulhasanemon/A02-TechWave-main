@@ -1,0 +1,115 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0d0221; /* Dark background from image */
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 80px 20px;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+}
+
+.main-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    font-weight: 600;
+}
+
+/* Grid Layout Definition */
+.bento-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* 3-column layout */
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+    /* Map layout to match your image */
+    grid-template-areas: 
+        "tall wide1 wide1"
+        "tall wide2 wide2"
+        "bottomL bottomL bottomR";
+}
+
+/* Assigning Classes to Grid Areas */
+.premium-audio { grid-area: tall; }
+.mobile-friendly { grid-area: wide1; }
+.global-community { grid-area: wide2; }
+.exclusive-interviews { grid-area: bottomL; }
+.rich-resources { grid-area: bottomR; }
+
+/* General Card Styling */
+.card {
+    background: #1a0b3b; /* Dark purple card color */
+    padding: 35px;
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Wide card layout (Icon + Text side-by-side) */
+.card-wide {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+/* Icon Gradient Style */
+.icon {
+    font-size: 40px;
+    margin-bottom: 20px;
+    background: linear-gradient(45deg, #ff00cc, #ffcc00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+.card-wide .icon {
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 1.4rem;
+    margin-bottom: 12px;
+}
+
+p {
+    color: #9d96ad;
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+
+/* Mobile Responsive */
+@media (max-width: 900px) {
+    .bento-grid {
+        grid-template-areas: 
+            "tall"
+            "wide1"
+            "wide2"
+            "bottomL"
+            "bottomR";
+        grid-template-columns: 1fr;
+    }
+
+    .card-wide {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .card-wide .icon {
+        margin-bottom: 20px;
+    }
+}
